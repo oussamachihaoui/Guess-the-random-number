@@ -8,6 +8,7 @@ body {
   color: #eee;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -26,8 +27,82 @@ main {
 .left {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .right {
   font-size: 1.5rem;
+}
+
+/* styling elements */
+
+h1 {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.between {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+}
+
+.again {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.check:hover,
+.again:hover {
+  background-color: rgb(212, 206, 206);
+  cursor: pointer;
+}
+
+.unknownNum {
+  width: 8rem;
+  padding: 2rem 0rem;
+  position: absolute;
+  bottom: -24%;
+  left: 45%;
+  background-color: #eee;
+  color: #222;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.inputNumber {
+  background: none;
+  width: 10rem;
+  height: 3rem;
+  border: 5px solid #eee;
+  font-family: inherit;
+  font-size: 3rem;
+  padding: 2rem;
+  color: #eee;
+  display: block;
+  margin-bottom: 1rem;
+  text-align: center;
+  outline: none;
+}
+
+.check {
+  width: 75%;
+  border: none;
+  font-family: inherit;
+  color: #222;
+  text-align: center;
+  padding: 1rem;
+}
+
+.guess {
+  margin-bottom: 5rem;
 }
