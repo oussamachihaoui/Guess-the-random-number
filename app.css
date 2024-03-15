@@ -1,0 +1,33 @@
+/* styling layout */
+
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #222;
+  color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 35vh;
+  border-bottom: 8px solid #eee;
+  position: relative;
+}
+
+main {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  font-size: 1.5rem;
+}
