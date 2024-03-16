@@ -67,11 +67,11 @@ h1 {
   cursor: pointer;
 }
 
-.unknownNum {
+.secretNumber {
   width: 8rem;
   padding: 2rem 0rem;
   position: absolute;
-  bottom: -24%;
+  bottom: -23%;
   left: 45%;
   background-color: #eee;
   color: #222;
